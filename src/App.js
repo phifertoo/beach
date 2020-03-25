@@ -13,7 +13,6 @@ function App() {
       <Navbar />
       <Switch>
         <Route exact path="/beach/" component={Home} />
-    <div> hello </div>
         <Route exact path="/rooms/" component={Rooms} />
         <Route exact path="/rooms/:slug" component={SingleRoom} />
         <Route component={Error} />
